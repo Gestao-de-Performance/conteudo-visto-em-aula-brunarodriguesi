@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: rgba(0, 255, 0, 0.3);
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 4.5rem;
+}
+
+h3{
+    font-size: 2em;
+}
+
+.tamanhoDiv{
+    max-width: 40vw;;
+}
+
+img{
+    width: 40%;
+}
+
+.corAquamarine{
+    color: aquamarine;
+}
+
+.tamanhoFonte{
+    font-size: 2rem;
+}
+
+#texto{
+    color: blueviolet;
+}
