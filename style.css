@@ -1,36 +1,26 @@
-body{
-    background-color: black;
-    color: rgba(0, 255, 0, 0.3);
+*{
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    font-size: 32px;
+header{
+    margin-top: 2.5vw;
 }
 
-h2{
-    font-size: 4.5rem;
+.marginSite{
+    margin: 0 10vw;
 }
 
-h3{
-    font-size: 2em;
+.flex{
+    display: flex;
+    align-items: center;
 }
 
-.tamanhoDiv{
-    max-width: 40vw;;
+/*Header*/
+.containerMenuPrincipal{
+    margin-left: 5vw;
+    justify-content: space-between;
+    width: 100%;
 }
 
-img{
-    width: 40%;
-}
-
-.corAquamarine{
-    color: aquamarine;
-}
-
-.tamanhoFonte{
-    font-size: 2rem;
-}
-
-#texto{
-    color: blueviolet;
-}
+/*Fim Header*/
