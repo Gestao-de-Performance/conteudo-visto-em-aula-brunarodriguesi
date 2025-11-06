@@ -9,10 +9,16 @@
     --cor-fundo-inscreva-se: #8E35FF;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
 }
 
 a{
@@ -103,3 +109,86 @@ h1{
     color: var(--cor-titulo);
     max-width: 236px;
 }
+
+/*Apresentação titulo*/
+
+/*Escolha seu curso*/
+
+.corFundoCursos{
+    background-color: var(--cor-fundo-escolha-curso);
+}
+
+.containerEscolhaCurso{
+    gap: 2vw;
+}
+
+.personagemCurso{
+    width: 40vw;
+    height: auto;
+}
+
+.tituloEscolhaCurso{
+    font-size: 3.5rem;
+    color: white;
+}
+
+.containerNomeCurso{
+    margin: 2vw 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1vw;
+    min-width: 650px;
+    justify-content: space-around;
+}
+
+.tipoCurso{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.nomeCurso{
+    color: white;
+    font-size: 1.4rem;
+}
+
+.containerBtnEscolheCurso{
+    gap: 1vw;
+}
+
+.btnEscolheCurso{
+    background-color: transparent;
+    border: none;
+    width: 1.5vw;
+}
+
+.btnEscolheCurso img{
+    width: 100%;
+}
+
+.tituloSoftSkills{
+    color: white;
+    font-size: 2rem;
+}
+
+.containerSoftSkills{
+    margin: 3vw 0;
+    justify-content: space-between;
+}
+
+.nomeSoftSkills{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.pontoSoftSkill{
+    gap: 0.2vw;
+}
+
+.pontoSoftSkill img{
+    width: 1.3vw;
+}
+
+.marginSoftSkill{
+    margin: 1vw 0;
+}
+
+/*Escolha seu curso*/
