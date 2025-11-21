@@ -118,7 +118,17 @@ h1{
 }
 
 @media screen and (max-width: 1068px){
+    .containerApresentacao{
+        flex-wrap: wrap;
+    }
 
+    .containerApresentacao h2{
+        font-size: 5.2rem;
+    }
+
+    .containerApresentacao p{
+        max-width: 275px;
+    }
 }
 /*Apresentação titulo*/
 
@@ -221,6 +231,12 @@ h1{
     }
     /*Fim Cabeçalho*/
 
+    /*Apresentação*/
+    .containerApresentacao h2{
+        font-size: 2.3rem;
+    }
+    /*Fim Apresentação*/
+
     /*Escolha seu Curso*/
     .personagemCurso{
         display: none;
@@ -238,8 +254,8 @@ h1{
         width: 10vw;
     }
 
-    .pontoSoftSkill{
-        
+    .pontoSoftSkill img{
+        width: 5vw;
     }
     /*Fim Escolha seu Curso*/
 
